@@ -9,7 +9,7 @@ import requests
 
 # Prompt the user for a stock symbol
 stock_symbol = input("Please enter the stock symbol you are interested in: ")
-api_key = 'bbh72g9fhYUwsiEVXd8DnQeI8Yehl3XO'
+api_key = 'Your API Key here'
 
 def fetch_stock_data(symbol):
     url = f'https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/day/2020-01-01/2023-12-31?adjusted=true&sort=asc&limit=120&apiKey={api_key}'
