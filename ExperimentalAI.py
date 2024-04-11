@@ -33,7 +33,7 @@ def calculate_returns(data):
     return data
 
 # Your API key
-api_key = 'bbh72g9fhYUwsiEVXd8DnQeI8Yehl3XO'
+api_key = 'Your API Key here'
 
 stock_symbol = input("Please enter the stock symbol you are interested in: ")
 stock_data = fetch_stock_data(stock_symbol, api_key)
